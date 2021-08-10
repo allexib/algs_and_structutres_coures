@@ -24,5 +24,5 @@ function binarySearch(array, item) {
     return position;
 }
 
-console.log(binarySearch(array, 8))
+console.log(binarySearch(array, 4))
 console.log(count)
