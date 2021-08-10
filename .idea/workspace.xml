@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48f2fba0-fe1c-4a7d-9c71-a58262a06042" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/4_bubble_sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_quick_sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_recursion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,17 +21,35 @@
       <file leaf-file-name="3_selection_sort.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3_selection_sort.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state>
+              <caret selection-end-line="1" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4_bubble_sort.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="4_bubble_sort.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/4_bubble_sort.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="270">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5_quick_sort.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5_quick_sort.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6_recursion.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/6_recursion.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -46,6 +66,8 @@
         <option value="$PROJECT_DIR$/2_binary_search.js" />
         <option value="$PROJECT_DIR$/3_selection_sort.js" />
         <option value="$PROJECT_DIR$/4_bubble_sort.js" />
+        <option value="$PROJECT_DIR$/5_quick_sort.js" />
+        <option value="$PROJECT_DIR$/6_recursion.js" />
       </list>
     </option>
   </component>
@@ -101,19 +123,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.4_bubble_sort.js">
+  <component name="RunManager" selected="Node.js.6_recursion.js">
     <configuration name="1_linear_search.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="1_linear_search.js" working-dir="$PROJECT_DIR$" />
     <configuration name="2_binary_search.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="2_binary_search.js" working-dir="$PROJECT_DIR$" />
     <configuration name="3_selection_sort.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="3_selection_sort.js" working-dir="$PROJECT_DIR$" />
     <configuration name="4_bubble_sort.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="4_bubble_sort.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="6_recursion.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="6_recursion.js" working-dir="$PROJECT_DIR$" />
     <list>
       <item itemvalue="Node.js.1_linear_search.js" />
       <item itemvalue="Node.js.2_binary_search.js" />
       <item itemvalue="Node.js.3_selection_sort.js" />
       <item itemvalue="Node.js.4_bubble_sort.js" />
+      <item itemvalue="Node.js.6_recursion.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.6_recursion.js" />
         <item itemvalue="Node.js.4_bubble_sort.js" />
         <item itemvalue="Node.js.3_selection_sort.js" />
         <item itemvalue="Node.js.2_binary_search.js" />
@@ -131,12 +156,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628593034302</updated>
-      <workItem from="1628593035690" duration="3042000" />
+      <workItem from="1628593035690" duration="3591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3042000" />
+    <option name="totallyTimeSpent" value="3591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1272" y="102" width="1296" height="1040" extended-state="6" />
@@ -147,7 +172,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32928178" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32928178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Favorites" side_tool="true" />
@@ -215,24 +240,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3_selection_sort.js">
+    <entry file="file://$PROJECT_DIR$/../../algs_and_structures_course-master/4_bubble_sort.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="216">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../algs_and_structures_course-master/4_bubble_sort.js">
+    <entry file="file://$PROJECT_DIR$/3_selection_sort.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" lean-forward="true" selection-end-line="20" />
+        <state>
+          <caret selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/4_bubble_sort.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="270">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5_quick_sort.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6_recursion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>
